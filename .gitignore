@@ -1,12 +1,12 @@
+# dependencies
 node_modules
+node_modules/
+
+# production
+/frontend/build
+
+# misc
 .env
 
-/node_modules
-npm-debug.log
-.DS_Store
-/*.env
-
-misc.txt
 deploymentSteps.js
-
-/frontend/build
+misc.txt
