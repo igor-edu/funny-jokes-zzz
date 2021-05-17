@@ -34,8 +34,6 @@ const Register = () => {
 
     const action = await dispatch(registerUser({ name, email, password }));
 
-    console.log('action from handleSubmit:', action);
-
     if (action.type === 'users/registerUser/fulfilled') {
       if (action.payload.error) {
         setError(userError);

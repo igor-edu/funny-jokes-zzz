@@ -47,7 +47,7 @@ const AddNewJoke = () => {
           <Form.Label>Joke Content</Form.Label>
           <Form.Control
             as='textarea'
-            rows={3}
+            rows={9}
             onChange={(e) => setContent(e.target.value)}
             value={content}
           />
