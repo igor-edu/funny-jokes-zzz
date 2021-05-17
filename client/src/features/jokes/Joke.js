@@ -39,7 +39,7 @@ const Joke = ({ jokeId }) => {
         </Card.Title>
         <Card.Subtitle className='mb-2 text-muted'>
           created by: {myJoke ? 'me' : joke.creator},{' '}
-          {formatDistanceToNow(new Date())} ago
+          {formatDistanceToNow(new Date(joke.createdAt))} ago
         </Card.Subtitle>
         <Card.Text>{joke.content.slice(0, 500)}</Card.Text>
         <>
