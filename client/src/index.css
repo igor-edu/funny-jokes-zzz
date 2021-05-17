@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #edf6f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-main {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0.5rem;
+  border-radius: 0;
+  border: none;
+  background-color: #212529;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+#responsive-navbar-nav {
+  justify-content: flex-end;
+}
+
+.Jokes h2 {
+  margin-bottom: 1rem;
+}
+
+.Jokes a.btn.btn-outline-warning {
+  margin-left: 10px;
+}
+
+.Joke {
+  background-color: #ffebec;
+}
+
+.Joke.mine {
+  background-color: #e6d7d7;
+}
+
+/* .Profile .btn-primary {
+  background-color: #e6d7d7;
+  border-color: transparent;
+  color: #000;
+}
+
+.Profile .btn-primary:hover {
+  background-color: #ffb4a2;
+  background-color: #ffebec;
+}
+
+.btn-primary {
+  background-color: #e6d7d7;
+  border-color: transparent;
+  border-color: none;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #ffebec;
+} */
+
+.Home .list-group-item {
+  background-color: #ffb4a2;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}

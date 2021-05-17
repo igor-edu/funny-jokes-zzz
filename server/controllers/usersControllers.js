@@ -146,9 +146,3 @@ export const registerSpecificUser = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-
-// just checking auth middleware
-// export const afterAuth = (req, res) => {
-//   console.log('in the afterAuth handler:');
-//   res.json(req.user);
-// };

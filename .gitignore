@@ -1,12 +1,13 @@
 # dependencies
 node_modules
 node_modules/
+/node_modules
 
 # production
-# /frontend/build
+client/build
+client/node_modules
 
 # misc
 .env
 
 deploymentSteps.js
-misc.txt

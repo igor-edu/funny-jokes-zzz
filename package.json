@@ -5,11 +5,11 @@
   "description": "add and vote on jokes",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/index",
-    "server": "nodemon backend/index",
-    "client": "npm --prefix ./frontend/ run start",
+    "start": "node index",
+    "server": "nodemon index",
+    "client": "npm --prefix ./client/ run start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "igor col",
   "license": "ISC",
@@ -25,6 +25,6 @@
     "react-router-dom": "^5.2.0"
   },
   "engines": {
-    "node": "15.14.0"
+    "node": "14.x"
   }
 }
